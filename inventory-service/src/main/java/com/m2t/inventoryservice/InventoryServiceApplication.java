@@ -23,7 +23,8 @@ public class InventoryServiceApplication {
 
 			Inventory inventory1 = new Inventory();
 			inventory.setSkuCode("airpods");
-			inventory.setQuantity(213);
+			inventory.setQuantity(0);
+
 
 			inventoryRepository.save(inventory);
 			inventoryRepository.save(inventory1);
